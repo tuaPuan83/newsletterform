@@ -1,16 +1,13 @@
-import NewsletterForm from "./component/NewsCard"
+import NewsCard from "./component/NewsCard";
 
-
-function App() {
-  
-
+const App = () => {
   return (
     <>
-      <div className="bg-Light-Lavender h-screen flex items-center justify-center">
-        <NewsletterForm/>
+      <div className="flex items-center justify-center h-screen bg-Light-Lavender">
+        <NewsCard />
       </div>
     </>
-  )
-}
+  );
+};
 
-export default App
+export default App;
