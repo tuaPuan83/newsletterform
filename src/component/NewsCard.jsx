@@ -17,7 +17,7 @@ const NewsCard = () => {
               <h1 className="text-Dark-Lavender font-poppins font-bold text-2xl">
                 Get Updated!
               </h1>
-              <p className="max-w-[250px] mt-3 text-black font-poppins text-xs font-light">
+              <p className="max-w-[280px] mt-3 text-black font-poppins text-xs font-light">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the 1500s.
@@ -35,7 +35,7 @@ const NewsCard = () => {
                   />
                   <button
                     type="submit"
-                    className="bg-Medium-Lavender px-1 py-2 w-full mt-2 md:mt-4 rounded-md font-poppins font-light text-white text-sm transition hover:bg-Dark-Lavender duration-300 cursor-pointer"
+                    className="bg-Medium-Lavender px-3 py-2 w-full mt-2 md:mt-4 rounded-md font-poppins font-light text-white text-sm transition hover:bg-Dark-Lavender duration-300 cursor-pointer active:scale-95"
                   >
                     Subscribe now
                   </button>
